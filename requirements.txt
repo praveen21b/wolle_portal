@@ -1,0 +1,5 @@
+pandas
+bs4
+flask
+requests
+PyYAML

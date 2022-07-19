@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wolle Portal for Product Comparison</title>
+</head>
+<body>
+    <h1>Wolle Portal</h1>
+    
+{% for table in tables %}
+            
+            {{ table|safe }}
+{% endfor %}
+</body>
+</html>
