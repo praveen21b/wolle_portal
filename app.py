@@ -3,7 +3,7 @@ from portal import WebScraper
 import pandas as pd
 from db import save_data_db
 import os,sys
-import PortalException
+from PortalException import PortalException
 from portal_logs import logging
 from save_csv import save_as_csv
 app = Flask(__name__)

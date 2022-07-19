@@ -6,7 +6,7 @@ import os, sys
 from portal_logs import logging
 
 
-def read_yaml_file(file_path:str)->dict:
+def read_yaml_file(file_path:str)->list:#list of dictionary
     """
     Reads a YAML file and returns the contents as a dictionary.
     

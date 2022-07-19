@@ -1,6 +1,6 @@
 import sqlite3
 import pandas as pd
-import PortalException
+from PortalException import PortalException
 from portal_logs import logging
 import os, sys
 

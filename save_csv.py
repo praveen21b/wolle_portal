@@ -1,6 +1,6 @@
 import pandas as pd
 from portal_logs import logging
-import PortalException
+from PortalException import PortalException
 import os, sys
 
 def save_as_csv(data:pd.DataFrame) -> None:

@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import pandas as pd
 from portal_logs import logging
-import PortalException
+from PortalException import PortalException
 import os, sys
 
 class WebScraper():
